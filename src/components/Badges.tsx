@@ -9,6 +9,15 @@ export function Badges() {
   const badges = [
     { 
       id: 1, 
+      name: 'AWS Certified Cloud Practitioner', 
+      description: 'Foundational AWS certification validating overall understanding of the AWS Cloud', 
+      image: '/assets/AWS Certified Cloud Practitioner.png',
+      issuedDate: '01/2026',
+      credentialId: '1eef81b7-ed8b-4134-b3c2-6cd6e7b94baa',
+      credentialUrl: 'https://www.credly.com/badges/1eef81b7-ed8b-4134-b3c2-6cd6e7b94baa'
+    },
+    { 
+      id: 2, 
       name: 'Introduction to Cloud 101', 
       description: 'Completed the Cloud Computing 101 course covering fundamental cloud concepts', 
       image: '/assets/edu1.png',
@@ -16,7 +25,7 @@ export function Badges() {
       credentialId: '7d7f7a91-b400-458c-8aa1-2d261a1c70d4'
     },
     { 
-      id: 2, 
+      id: 3, 
       name: 'Getting Started with Storage', 
       description: 'Completed the Getting Started with Storage course', 
       image: '/assets/edu2.png',
@@ -24,7 +33,7 @@ export function Badges() {
       credentialId: 'b17a7436-a70b-458c-96db-9bc755f6067e'
     },
     { 
-      id: 3, 
+      id: 4, 
       name: 'Getting Started with Compute', 
       description: 'Completed the Getting Started with Compute course', 
       image: '/assets/edu3.png',
@@ -32,7 +41,7 @@ export function Badges() {
       credentialId: '47c5abc5-dacb-4763-9638-eba1d1c1445b'
     },
     { 
-      id: 4, 
+      id: 5, 
       name: 'Getting Started with Databases', 
       description: 'Completed the Getting Started with Databases course', 
       image: '/assets/edu4.png',
@@ -40,7 +49,7 @@ export function Badges() {
       credentialId: '2e57d080-2305-43e8-9b5a-ca135f14a4e1'
     },
     { 
-      id: 5, 
+      id: 6, 
       name: 'Getting Started with Networking', 
       description: 'Completed the Getting Started with Networking course', 
       image: '/assets/edu5.png',
@@ -48,7 +57,7 @@ export function Badges() {
       credentialId: 'c6a7c313-bd4f-4f57-99d0-140368b2d464'
     },
     { 
-      id: 6, 
+      id: 7, 
       name: 'Getting Started with Security', 
       description: 'Completed the Getting Started with Security course', 
       image: '/assets/edu6.png',
@@ -56,7 +65,7 @@ export function Badges() {
       credentialId: 'fc1736dd-dcf3-49bd-972b-27ad74147eeb'
     },
     { 
-      id: 7, 
+      id: 8, 
       name: 'Getting Started with Serverless', 
       description: 'Completed the Getting Started with Serverless course', 
       image: '/assets/edu7.png',
@@ -64,7 +73,7 @@ export function Badges() {
       credentialId: '7a3134c9-8bd8-4b41-919d-c92682dd2630'
     },
     { 
-      id: 8, 
+      id: 9, 
       name: 'Getting Started with Cloud Ops', 
       description: 'Completed the Getting Started with Cloud Ops course', 
       image: '/assets/edu8.png',
@@ -72,7 +81,7 @@ export function Badges() {
       credentialId: '7f58cd92-3c4f-46ba-810a-1c8565ddfd87'
     },
     { 
-      id: 9, 
+      id: 10, 
       name: 'Introduction to Generative AI', 
       description: 'Completed the Introduction to Generative AI course', 
       image: '/assets/edu9.png',
@@ -80,7 +89,7 @@ export function Badges() {
       credentialId: '1b66c684-02fa-4a63-9ceb-aa3deca30b87'
     },
     { 
-      id: 10, 
+      id: 11, 
       name: 'Machine Learning Foundations', 
       description: 'Completed the Machine Learning Foundations course', 
       image: '/assets/edu10.png',
@@ -88,7 +97,7 @@ export function Badges() {
       credentialId: 'd11fe7e2-172d-4a4c-bacf-b8f9ec0b17d8'
     },
     { 
-      id: 11, 
+      id: 12, 
       name: 'Introduction to Cloud Semester 1', 
       description: 'AWS Academy Graduate - Introduction to Cloud Semester 1', 
       image: '/assets/edu11.png',
@@ -96,7 +105,7 @@ export function Badges() {
       credentialId: '253dd8ff-f26b-40ed-b21e-3e696e196719'
     },
     { 
-      id: 12, 
+      id: 13, 
       name: 'Introduction to Cloud Semester 2', 
       description: 'AWS Academy Graduate - Introduction to Cloud Semester 2', 
       image: '/assets/edu12.png',
@@ -104,7 +113,7 @@ export function Badges() {
       credentialId: 'fd15ebe3-9d4c-497c-b83a-321fa113e089'
     },
     { 
-      id: 13, 
+      id: 14, 
       name: 'Cloud Essentials', 
       description: 'Developed knowledge of AWS Cloud Essentials', 
       image: '/assets/edu13.png',
@@ -112,7 +121,7 @@ export function Badges() {
       credentialId: '86443fb5-ad3d-4022-982d-b1860a1a31b2'
     },
     { 
-      id: 14, 
+      id: 15, 
       name: 'Cloud Quest Cloud Practitioner', 
       description: 'AWS Cloud Quest: Cloud Practitioner - Training Badge', 
       image: '/assets/edu14.png',
@@ -135,7 +144,7 @@ export function Badges() {
             AWS Achievement Badges
           </h2>
           <div className="w-24 h-1 bg-[#E50914] mx-auto mb-4" />
-          <p className="text-zinc-400 text-lg">14 Specialized AWS Learning Achievements</p>
+          <p className="text-zinc-400 text-lg">15 Specialized AWS Learning Achievements</p>
         </motion.div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -231,14 +240,14 @@ export function Badges() {
                 </div>
 
                 <motion.a
-                  href="https://skillsprofile.skillbuilder.aws/user/keshav-srini/certification-badges"
+                  href={badges[selectedBadge].credentialUrl || "https://skillsprofile.skillbuilder.aws/user/keshav-srini/certification-badges"}
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="px-6 py-3 bg-[#E50914] hover:bg-[#b8070f] transition-colors w-full block text-center"
                 >
-                  View on AWS Skill Builder
+                  {badges[selectedBadge].credentialUrl ? 'View on Credly' : 'View on AWS Skill Builder'}
                 </motion.a>
               </div>
             </motion.div>

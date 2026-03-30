@@ -12,7 +12,7 @@ export function Certifications() {
       issueDate: 'January 2026',
       credentialUrl: 'https://www.credly.com/badges/1eef81b7-ed8b-4134-b3c2-6cd6e7b94baa',
       skills: ['AWS Cloud', 'Cloud Computing', 'Cloud Architecture', 'AWS Services'],
-      logo: '/assets/AWS Certified Cloud Practitioner.png',
+      logo: '/assets/icons8-aws-logo-480.png',
     },
     {
       name: 'Problem Solving (Intermediate)',
