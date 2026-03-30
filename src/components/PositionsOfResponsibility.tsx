@@ -4,6 +4,13 @@ import { Calendar, Briefcase } from 'lucide-react';
 export function PositionsOfResponsibility() {
   const positions = [
     {
+      title: 'AWS Community Builder',
+      organization: 'Amazon Web Services (AWS)',
+      issueDate: 'January 2026',
+      description: 'Selected as an AWS Community Builder, contributing to the AWS community through content creation, knowledge sharing, and helping others learn about cloud technologies.',
+      badge: '/assets/icons8-aws-logo-480.png',
+    },
+    {
       title: 'AWS Educate Learner Program Advocate',
       organization: 'AWS Training & Certification',
       issueDate: 'July 2025',

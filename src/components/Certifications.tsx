@@ -7,6 +7,14 @@ export function Certifications() {
 
   const certifications = [
     {
+      name: 'AWS Certified Cloud Practitioner',
+      organization: 'Amazon Web Services (AWS)',
+      issueDate: 'January 2026',
+      credentialUrl: 'https://www.credly.com/badges/1eef81b7-ed8b-4134-b3c2-6cd6e7b94baa',
+      skills: ['AWS Cloud', 'Cloud Computing', 'Cloud Architecture', 'AWS Services'],
+      logo: '/assets/AWS Certified Cloud Practitioner.png',
+    },
+    {
       name: 'Problem Solving (Intermediate)',
       organization: 'HackerRank',
       issueDate: 'April 2025',
