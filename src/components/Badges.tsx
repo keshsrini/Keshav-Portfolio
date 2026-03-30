@@ -13,6 +13,7 @@ export function Badges() {
       description: 'Foundational AWS certification validating overall understanding of the AWS Cloud', 
       image: '/assets/AWS Certified Cloud Practitioner.png',
       issuedDate: '01/2026',
+      expirationDate: '01/2029',
       credentialId: '1eef81b7-ed8b-4134-b3c2-6cd6e7b94baa',
       credentialUrl: 'https://www.credly.com/badges/1eef81b7-ed8b-4134-b3c2-6cd6e7b94baa'
     },
@@ -235,7 +236,7 @@ export function Badges() {
                 <div className="border-t border-zinc-800 pt-6 space-y-2 text-sm text-zinc-400 text-left mb-8">
                   <p><strong>Issuing Organization:</strong> Amazon Web Services Training and Certification</p>
                   <p><strong>Issued Date:</strong> {badges[selectedBadge].issuedDate}</p>
-                  <p><strong>Expiration Date:</strong> This credential does not expire</p>
+                  <p><strong>Expiration Date:</strong> {badges[selectedBadge].expirationDate || 'This credential does not expire'}</p>
                   <p><strong>Credential ID:</strong> {badges[selectedBadge].credentialId}</p>
                 </div>
 
